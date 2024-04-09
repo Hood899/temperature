@@ -1,0 +1,69 @@
+/* Add all your styles here */
+body {
+  background: linear-gradient(to bottom right, #3498db, #e74c3c);
+  background-repeat: no-repeat ;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="number"],
+button {
+  padding: 10px 16px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #ff9800;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="reset"] {
+  background-color: #f44336;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 30px 0;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+}
